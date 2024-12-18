@@ -244,10 +244,10 @@
     <!--end item 10tayia-->
 
     <div class="item6">
-      <div class="swiper mySwiper">
+      <div class="swiper mySwiperSlides">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <div class="card">Salam</div>
+            <div class="base">پیشنهاد شگفت انگیز</div>
           </div>
           <div class="swiper-slide">
             <div class="card">Salam</div>
@@ -263,8 +263,24 @@
           </div>
           <div class="swiper-slide">
             <div class="card">Salam</div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">Salam</div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">Salam</div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">Salam</div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">Salam</div>
+          </div>
+          <div class="swiper-slide">
+            <div class="base">مشاهده همه</div>
           </div>
         </div>
+        <div class="swiper-pagination"></div>
       </div>
     </div>
     <!--start shegeft angiz-->
@@ -784,6 +800,21 @@
           delay: 2500,
           disableOnInteraction: false,
         },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+      var swiperSlidesPerView = new Swiper(".mySwiperSlides", {
+        spaceBetween: 24,
+        slidesPerView: 7,
+        freeMode: true,
+
         pagination: {
           el: ".swiper-pagination",
           clickable: true,

@@ -271,20 +271,6 @@ div.item5 {
   align-items: center;
 }
 
-div.item6 > .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-div.item6 > .swiper-slide > .card {
-  width: 25%;
-  height: 80%;
-}
-
 div.item5 > div {
   display: flex;
   justify-content: center;
@@ -292,7 +278,7 @@ div.item5 > div {
   height: 104px;
   text-align: center;
   flex-grow: 1;
-  row-gap: ;
+  /* row-gap: ; */
 }
 div.item5 > div > a {
   text-decoration: none;
@@ -312,29 +298,61 @@ div.item5 > div > a > div > img {
   object-fit: contain;
 }
 
-div.item5 > div > a > div > p {
-}
+/* div.item5 > div > a > div > p {
+} */
 
 /* end item 10tayia*/
 div.item6 {
-  width: 1336px;
+  width: 1334px;
   height: 254px;
   padding: 20px 0;
-  margin: 20 auto;
-  background-color: chartreuse;
+  margin: 20px auto;
+  border-radius: 20px;
+  background-color: red;
 }
-/*start shegeft angiz*/
+
+div.item6 > .swiper > .swiper-wrapper {
+  width: 1334px;
+  height: 100%;
+  padding: 0 24px 0 0;
+}
+
+div.item6 > .swiper > .swiper-wrapper > .swiper-slide {
+  width: 160px !important;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.item6 > .swiper > .swiper-wrapper > .swiper-slide:nth-child(1) {
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+  background-color: red;
+  border: 1px solid black;
+}
+
+div.item6 .swiper-slide > .card {
+  background-color: orange;
+  height: 100%;
+}
+
+div.item6 .swiper-slide > .base {
+  height: 80%;
+}
+
+/*startshegeft angiz*/
 div.item7 {
-  width: 1336px;
+  width: 80%;
   height: 110px;
-  margin: 20 auto;
+  margin: 20px auto;
   background-color: #eceeee;
   direction: rtl;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  margin-top: 15px;
+  /* margin-top: 15px; */
 }
 div.item7 > div.rast {
   width: 469px;
